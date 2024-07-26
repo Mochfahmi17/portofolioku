@@ -14,9 +14,9 @@ const Homepage = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="hero grid grid-cols-1 items-center gap-20 pt-32 md:grid-cols-2">
             <div className="box">
-              <h1 className="text-base font-semibold text-teal-500 md:text-xl">
+              <h1 className="animate__animated animate__fadeInLeft text-base font-semibold text-teal-500 md:text-xl">
                 Hi everyone 👋, my name is
-                <span className="mb-7 mt-1 block text-4xl font-bold text-slate-900 lg:text-5xl">
+                <span className="animate__animated animate__fadeInLeft mb-7 mt-1 block text-4xl font-bold text-slate-900 lg:text-5xl">
                   Mochammad Fahmi
                 </span>
               </h1>
@@ -28,7 +28,7 @@ const Homepage = () => {
               <a
                 href={myCV}
                 download="Mochammad_Fahmi_CV"
-                className="inline-block rounded-md bg-teal-500 px-8 py-3 text-base font-semibold text-white shadow transition-all hover:bg-teal-400"
+                className="animate__animated animate__bounce animate__delay-1s inline-block rounded-md bg-teal-500 px-8 py-3 text-base font-semibold text-white shadow transition-all hover:bg-teal-400"
               >
                 Download CV
               </a>
@@ -37,7 +37,7 @@ const Homepage = () => {
               <img
                 src={HeroImage}
                 alt="Hero Image"
-                className="mx-auto w-[400px] object-cover object-center md:mx-0 md:w-full"
+                className="animate__animated animate__fadeIn mx-auto w-[400px] object-cover object-center md:mx-0 md:w-full"
               />
             </div>
           </div>
@@ -166,7 +166,10 @@ const Homepage = () => {
       <section className="portfolio pb-20 pt-32" id="portfolio">
         <div className="container mx-auto px-4 md:px-8">
           <div className="title mx-auto mb-16 max-w-xl">
-            <h4 className="mb-3 text-center text-lg font-bold text-teal-500">
+            <h4
+              data-aos="fade-up"
+              className="mb-3 text-center text-lg font-bold text-teal-500"
+            >
               Portfolio
             </h4>
             <h2 className="mb-5 text-center text-3xl font-bold text-slate-900 lg:text-4xl">
@@ -182,7 +185,9 @@ const Homepage = () => {
               return (
                 <div
                   key={item.id}
-                  className="box flex cursor-pointer flex-col justify-between rounded-lg bg-white p-4 shadow transition-all hover:-translate-y-2 hover:shadow-lg md:p-2"
+                  data-aos="fade-up"
+                  data-aos-delay={item.delay}
+                  className="box flex cursor-pointer flex-col justify-between rounded-lg bg-white p-4 shadow transition-all md:p-2"
                 >
                   <div className="img overflow-hidden rounded-t-md">
                     <img src={item.image} alt="" width="w-full" />
@@ -214,7 +219,10 @@ const Homepage = () => {
       <section className="contact bg-white pb-20 pt-32" id="contact">
         <div className="conatiner mx-auto px-4 md:px-8">
           <div className="title mx-auto mb-16 max-w-xl">
-            <h4 className="mb-3 text-center text-lg font-bold text-teal-500">
+            <h4
+              data-aos="fade-up"
+              className="mb-3 text-center text-lg font-bold text-teal-500"
+            >
               Contact
             </h4>
             <h2 className="mb-5 text-center text-3xl font-bold text-slate-900 lg:text-4xl">

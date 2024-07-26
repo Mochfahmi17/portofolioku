@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar fixed w-full py-4 ${scrollActive} z-10 transition-all`}
+      className={`navbar fixed w-full py-4 ${scrollActive} animate__animated animate__fadeInDown z-10 transition-all`}
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="navbar-box flex items-center justify-between">

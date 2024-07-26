@@ -47,6 +47,7 @@ export const project = [
     title: "My first portofolio Design with bootstrap",
     text: "This is my first portfolio website that I created using HTML, CSS and using the bootstrap library.",
     link: "https://mochfahmi17.github.io",
+    delay: "300",
   },
   {
     id: 2,
@@ -54,6 +55,7 @@ export const project = [
     title: "Movie Website Netflix",
     text: "This is a clone website from Netflix that I made using HTML, vanilla CSS and Javascript.",
     link: "https://mochfahmi17.github.io/money-heist-website",
+    delay: "600",
   },
   {
     id: 3,
@@ -61,6 +63,7 @@ export const project = [
     title: "Website Consultation Online With Doctor",
     text: "This is an online doctor consultation website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/hospital",
+    delay: "900",
   },
   {
     id: 4,
@@ -68,6 +71,7 @@ export const project = [
     title: "Coffee Shop Website",
     text: "This is a coffee shop website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/rumah-kopi-website",
+    delay: "",
   },
   {
     id: 5,
@@ -75,6 +79,7 @@ export const project = [
     title: "My Shopping Notes",
     text: "This is the My Shopping Notes website that I created using HTML, CSS, Javascript and using frameworks such as ReactJS and TailwindCSS.",
     link: "https://catatan-belanja-seven.vercel.app",
+    delay: "300",
   },
   {
     id: 6,
@@ -82,5 +87,6 @@ export const project = [
     title: "Weather App",
     text: "This is a weather app website that I created using HTML, CSS and the ReactJS framework and using the API from openweathermap.org.",
     link: "https://weather-app-jet-seven-66.vercel.app",
+    delay: "600",
   },
 ];
