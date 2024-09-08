@@ -139,16 +139,15 @@ const Footer = () => {
           </div>
           <div className="mt-5 w-full border-t-2 border-slate-900 pt-5">
             <p className="text-center text-sm text-slate-200">
-              &copy; 2024 Create with{" "}
-              <i className="ri-heart-fill text-red-500"></i> by{" "}
+              Copyright 2024 ©
               <a
                 href="https://instagram.com/fahmi_art17"
                 target="_blank"
                 className="hover:text-teal-500"
               >
                 Mochammad Fahmi
-              </a>
-              .
+              </a>{" "}
+              - All Right Reserved.
             </p>
           </div>
         </div>

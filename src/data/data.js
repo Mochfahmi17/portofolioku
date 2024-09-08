@@ -4,6 +4,7 @@ import porto3 from "../assets/image/portfolio/porto3.jpg";
 import porto4 from "../assets/image/portfolio/porto4.jpg";
 import porto5 from "../assets/image/portfolio/porto5.jpg";
 import porto6 from "../assets/image/portfolio/porto6.jpg";
+import porto7 from "../assets/image/portfolio/porto7.jpg";
 
 export const mySkill = [
   {
@@ -55,7 +56,7 @@ export const project = [
     title: "Movie Website Netflix",
     text: "This is a clone website from Netflix that I made using HTML, vanilla CSS and Javascript.",
     link: "https://mochfahmi17.github.io/money-heist-website",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 3,
@@ -63,7 +64,7 @@ export const project = [
     title: "Website Consultation Online With Doctor",
     text: "This is an online doctor consultation website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/hospital",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 4,
@@ -71,7 +72,7 @@ export const project = [
     title: "Coffee Shop Website",
     text: "This is a coffee shop website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/rumah-kopi-website",
-    delay: "",
+    delay: "300",
   },
   {
     id: 5,
@@ -79,7 +80,7 @@ export const project = [
     title: "My Shopping Notes",
     text: "This is the My Shopping Notes website that I created using HTML, CSS, Javascript and using frameworks such as ReactJS and TailwindCSS.",
     link: "https://catatan-belanja-seven.vercel.app",
-    delay: "300",
+    delay: "900",
   },
   {
     id: 6,
@@ -88,5 +89,13 @@ export const project = [
     text: "This is a weather app website that I created using HTML, CSS and the ReactJS framework and using the API from openweathermap.org.",
     link: "https://weather-app-jet-seven-66.vercel.app",
     delay: "600",
+  },
+  {
+    id: 7,
+    image: porto7,
+    title: "Kartini: Suara Perempuan Jawa yang Mendunia",
+    text: "I created this website to take part in a competition organized by Cloudraya (PT. Wowrack) about the heroism of Indonesian figures and I succeeded in winning 1st place.",
+    link: "https://s3-jak01.storageraya.com/kartini-static-website/index.html",
+    delay: "300",
   },
 ];

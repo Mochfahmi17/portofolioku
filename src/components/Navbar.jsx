@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -35,22 +36,22 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="navbar-box flex items-center justify-between">
           <div className="logo">
-            <a href="#">
+            <Link to="/">
               <h1 className="text-lg font-bold text-teal-500 sm:text-xl md:text-2xl">
                 Mochammad Fahmi
               </h1>
-            </a>
+            </Link>
           </div>
           <ul
             className={`absolute ${hamburgerMenu} right-0 top-full flex flex-col gap-8 rounded-bl-xl bg-teal-500 px-8 py-6 text-center shadow-lg transition-all md:static md:h-full md:translate-x-0 md:flex-row md:rounded-none md:bg-transparent md:p-0 md:shadow-none lg:gap-12`}
           >
             <li className="group">
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="text-base font-medium text-white opacity-75 group-hover:text-slate-900 md:text-slate-900 md:group-hover:text-teal-500"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="group">
               <a

@@ -2,6 +2,7 @@ import HeroImage from "../assets/image/hero.svg";
 import { mySkill, project } from "../data/data";
 import myCV from "../assets/resources/my_CV.pdf";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   useEffect(() => {
@@ -50,7 +51,12 @@ const Homepage = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 gap-0 pt-36 md:grid-cols-2 md:gap-20">
             <div className="box">
-              <h4 className="mb-3 text-lg font-bold text-teal-500">About Me</h4>
+              <h4
+                data-aos="fade-up"
+                className="mb-3 text-lg font-bold text-teal-500"
+              >
+                About Me
+              </h4>
               <h2 className="mb-5 max-w-md text-3xl font-bold text-slate-900 lg:text-4xl">
                 Graphic Designer & Front-End Developer
               </h2>
@@ -177,39 +183,50 @@ const Homepage = () => {
             </h2>
             <p className="text-center text-base font-medium text-slate-500 lg:text-lg">
               Welcome to my portfolio, here you can see the projects I have
-              worked on
+              worked on.
             </p>
           </div>
           <div className="service-box mt-5 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
-            {project.map((item) => {
-              return (
-                <div
-                  key={item.id}
-                  data-aos="fade-up"
-                  data-aos-delay={item.delay}
-                  className="box flex cursor-pointer flex-col justify-between rounded-lg bg-white p-4 shadow transition-all md:p-2"
-                >
-                  <div className="img overflow-hidden rounded-t-md">
-                    <img src={item.image} alt="" width="w-full" />
+            {project
+              .slice(project.length - 6)
+              .map((item) => {
+                return (
+                  <div
+                    key={item.id}
+                    data-aos="fade-up"
+                    data-aos-delay={item.delay}
+                    className="box flex cursor-pointer flex-col justify-between rounded-lg bg-white p-4 shadow transition-all md:p-2"
+                  >
+                    <div className="img overflow-hidden rounded-t-md">
+                      <img src={item.image} alt="" width="w-full" />
+                    </div>
+                    <h3 className="mb-3 mt-5 text-xl font-semibold text-slate-900">
+                      {item.title}
+                    </h3>
+                    <p className="mb-7 text-base font-medium text-slate-500">
+                      {item.text}
+                    </p>
+                    <div className="button self-end">
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        className="inline-block rounded-lg bg-teal-500 px-9 py-2 text-base font-semibold text-white shadow transition-all hover:bg-teal-400"
+                      >
+                        Visit
+                      </a>
+                    </div>
                   </div>
-                  <h3 className="mb-3 mt-5 text-xl font-semibold text-slate-900">
-                    {item.title}
-                  </h3>
-                  <p className="mb-7 text-base font-medium text-slate-500">
-                    {item.text}
-                  </p>
-                  <div className="button self-end">
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      className="inline-block rounded-lg bg-teal-500 px-9 py-2 text-base font-semibold text-white shadow transition-all hover:bg-teal-400"
-                    >
-                      Visit
-                    </a>
-                  </div>
-                </div>
-              );
-            })}
+                );
+              })
+              .reverse()}
+          </div>
+          <div className="flex items-center justify-center">
+            <Link
+              to="/portfolio"
+              className="mt-10 justify-center rounded-md bg-teal-500 px-8 py-3 text-base font-semibold text-white shadow transition-all hover:bg-teal-400"
+            >
+              See more!
+            </Link>
           </div>
         </div>
       </section>
