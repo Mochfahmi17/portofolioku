@@ -94,7 +94,7 @@ export const project = [
     id: 7,
     image: porto7,
     title: "Kartini: Suara Perempuan Jawa yang Mendunia",
-    text: "I created this website to take part in a competition organized by Cloudraya (PT. Wowrack) about the heroism of Indonesian figures and I succeeded in winning 1st place.",
+    text: "I created this website to take part in a competition organized by Cloudraya (PT. Wowrack) about the heroism of Indonesian figures and I succeeded in winning 🏆 1st place.",
     link: "https://s3-jak01.storageraya.com/kartini-static-website/index.html",
     delay: "300",
   },
