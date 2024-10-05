@@ -5,6 +5,8 @@ import porto4 from "../assets/image/portfolio/porto4.jpg";
 import porto5 from "../assets/image/portfolio/porto5.jpg";
 import porto6 from "../assets/image/portfolio/porto6.jpg";
 import porto7 from "../assets/image/portfolio/porto7.jpg";
+import porto8 from "../assets/image/portfolio/porto8.jpg";
+import porto9 from "../assets/image/portfolio/porto9.jpg";
 
 export const mySkill = [
   {
@@ -97,5 +99,21 @@ export const project = [
     text: "I created this website to take part in a competition organized by Cloudraya (PT. Wowrack) about the heroism of Indonesian figures and I succeeded in winning 🏆 1st place.",
     link: "https://s3-jak01.storageraya.com/kartini-static-website/index.html",
     delay: "300",
+  },
+  {
+    id: 8,
+    image: porto8,
+    title: "Weather App v2.0.0",
+    text: "Hi, this is the second weather-app with a fresh appearance and provides more detailed information. I made this with reactJS and used the API from https://openweathermap.org.",
+    link: "https://weather-app-v2-0-0.vercel.app/",
+    delay: "900",
+  },
+  {
+    id: 9,
+    image: porto9,
+    title: "KFC Indonesia",
+    text: "HHi, this is a web application that I created with technologies such as React JS, Tailwind CSS, etc. The website was created so that people no longer need to go to KFC outlets but can order on this website.",
+    link: "https://kfc-indonesia.vercel.app/",
+    delay: "600",
   },
 ];
