@@ -58,7 +58,7 @@ export const project = [
     title: "Movie Website Netflix",
     text: "This is a clone website from Netflix that I made using HTML, vanilla CSS and Javascript.",
     link: "https://mochfahmi17.github.io/money-heist-website",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ export const project = [
     title: "Website Consultation Online With Doctor",
     text: "This is an online doctor consultation website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/hospital",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ export const project = [
     title: "My Shopping Notes",
     text: "This is the My Shopping Notes website that I created using HTML, CSS, Javascript and using frameworks such as ReactJS and TailwindCSS.",
     link: "https://catatan-belanja-seven.vercel.app",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 6,
@@ -90,7 +90,7 @@ export const project = [
     title: "Weather App",
     text: "This is a weather app website that I created using HTML, CSS and the ReactJS framework and using the API from openweathermap.org.",
     link: "https://weather-app-jet-seven-66.vercel.app",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 7,
@@ -106,7 +106,7 @@ export const project = [
     title: "Weather App v2.0.0",
     text: "Hi, this is the second weather-app with a fresh appearance and provides more detailed information. I made this with reactJS and used the API from https://openweathermap.org.",
     link: "https://weather-app-v2-0-0.vercel.app/",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 9,
@@ -114,6 +114,6 @@ export const project = [
     title: "KFC Indonesia",
     text: "HHi, this is a web application that I created with technologies such as React JS, Tailwind CSS, etc. The website was created so that people no longer need to go to KFC outlets but can order on this website.",
     link: "https://kfc-indonesia.vercel.app/",
-    delay: "600",
+    delay: "900",
   },
 ];
