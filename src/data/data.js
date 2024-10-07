@@ -31,15 +31,27 @@ export const mySkill = [
   },
   {
     id: 6,
-    skill: "Bootstrap 5",
+    skill: "PHP",
   },
   {
     id: 7,
-    skill: "Tailwind CSS",
+    skill: "Bootstrap 5",
   },
   {
     id: 8,
+    skill: "Tailwind CSS",
+  },
+  {
+    id: 9,
     skill: "ReactJS",
+  },
+  {
+    id: 10,
+    skill: "VueJS",
+  },
+  {
+    id: 11,
+    skill: "Laravel",
   },
 ];
 
@@ -50,7 +62,7 @@ export const project = [
     title: "My first portofolio Design with bootstrap",
     text: "This is my first portfolio website that I created using HTML, CSS and using the bootstrap library.",
     link: "https://mochfahmi17.github.io",
-    delay: "300",
+    delay: "900",
   },
   {
     id: 2,
@@ -66,7 +78,7 @@ export const project = [
     title: "Website Consultation Online With Doctor",
     text: "This is an online doctor consultation website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/hospital",
-    delay: "900",
+    delay: "300",
   },
   {
     id: 4,
@@ -74,7 +86,7 @@ export const project = [
     title: "Coffee Shop Website",
     text: "This is a coffee shop website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/rumah-kopi-website",
-    delay: "300",
+    delay: "900",
   },
   {
     id: 5,
@@ -90,7 +102,7 @@ export const project = [
     title: "Weather App",
     text: "This is a weather app website that I created using HTML, CSS and the ReactJS framework and using the API from openweathermap.org.",
     link: "https://weather-app-jet-seven-66.vercel.app",
-    delay: "900",
+    delay: "300",
   },
   {
     id: 7,
@@ -98,7 +110,7 @@ export const project = [
     title: "Kartini: Suara Perempuan Jawa yang Mendunia",
     text: "I created this website to take part in a competition organized by Cloudraya (PT. Wowrack) about the heroism of Indonesian figures and I succeeded in winning 🏆 1st place.",
     link: "https://s3-jak01.storageraya.com/kartini-static-website/index.html",
-    delay: "300",
+    delay: "900",
   },
   {
     id: 8,
@@ -114,6 +126,6 @@ export const project = [
     title: "KFC Indonesia",
     text: "HHi, this is a web application that I created with technologies such as React JS, Tailwind CSS, etc. The website was created so that people no longer need to go to KFC outlets but can order on this website.",
     link: "https://kfc-indonesia.vercel.app/",
-    delay: "900",
+    delay: "300",
   },
 ];
