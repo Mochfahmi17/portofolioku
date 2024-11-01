@@ -1,6 +1,6 @@
 import HeroImage from "../assets/image/hero.svg";
 import { mySkill, project } from "../data/data";
-import myCV from "../assets/resources/mochammad-fahmi-kurnia-sandi(CV).pdf";
+import myCV from "../assets/resources/my_resume.pdf";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
