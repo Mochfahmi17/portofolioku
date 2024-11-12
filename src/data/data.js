@@ -7,6 +7,8 @@ import porto6 from "../assets/image/portfolio/porto6.jpg";
 import porto7 from "../assets/image/portfolio/porto7.jpg";
 import porto8 from "../assets/image/portfolio/porto8.jpg";
 import porto9 from "../assets/image/portfolio/porto9.jpg";
+import porto10 from "../assets/image/portfolio/porto10.jpg";
+import porto11 from "../assets/image/portfolio/porto11.jpg";
 
 export const mySkill = [
   {
@@ -124,8 +126,24 @@ export const project = [
     id: 9,
     image: porto9,
     title: "KFC Indonesia",
-    text: "HHi, this is a web application that I created with technologies such as React JS, Tailwind CSS, etc. The website was created so that people no longer need to go to KFC outlets but can order on this website.",
+    text: "Hi, this is a web application that I created with technologies such as React JS, Tailwind CSS, etc. The website was created so that people no longer need to go to KFC outlets but can order on this website.",
     link: "https://kfc-indonesia.vercel.app/",
     delay: "300",
+  },
+  {
+    id: 10,
+    image: porto10,
+    title: "Cinematic Vibes",
+    text: "Hey there! This web app is built using React JS, Tailwind CSS, Redux, and Axios. It fetches data from https://www.themoviedb.org/ to show you the latest and greatest movies and TV shows, as well as some older ones.",
+    link: "https://cinematicvibes.vercel.app/",
+    delay: "900",
+  },
+  {
+    id: 11,
+    image: porto11,
+    title: "Dealio (E-Commerce)",
+    text: "Hello! This web application is built using React JS, Tailwind CSS, Redux, and Axios, and incorporates AOS and Animate.css for enhanced animations. The application fetches data from https://fakestoreapi.com/ to display a wide range of products, including men's clothing, women's clothing, jewelry, and electronics.",
+    link: "https://dealio-orpin.vercel.app/",
+    delay: "600",
   },
 ];
