@@ -64,7 +64,7 @@ export const project = [
     title: "My first portofolio Design with bootstrap",
     text: "This is my first portfolio website that I created using HTML, CSS and using the bootstrap library.",
     link: "https://mochfahmi17.github.io",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ export const project = [
     title: "Movie Website Netflix",
     text: "This is a clone website from Netflix that I made using HTML, vanilla CSS and Javascript.",
     link: "https://mochfahmi17.github.io/money-heist-website",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 3,
@@ -88,7 +88,7 @@ export const project = [
     title: "Coffee Shop Website",
     text: "This is a coffee shop website that I created using HTML, vanilla CSS and vanilla Javascript.",
     link: "https://mochfahmi17.github.io/rumah-kopi-website",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 5,
@@ -96,7 +96,7 @@ export const project = [
     title: "My Shopping Notes",
     text: "This is the My Shopping Notes website that I created using HTML, CSS, Javascript and using frameworks such as ReactJS and TailwindCSS.",
     link: "https://catatan-belanja-seven.vercel.app",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 6,
@@ -112,7 +112,7 @@ export const project = [
     title: "Kartini: Suara Perempuan Jawa yang Mendunia",
     text: "I created this website to take part in a competition organized by Cloudraya (PT. Wowrack) about the heroism of Indonesian figures and I succeeded in winning 🏆 1st place.",
     link: "https://s3-jak01.storageraya.com/kartini-static-website/index.html",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 8,
@@ -120,7 +120,7 @@ export const project = [
     title: "Weather App v2.0.0",
     text: "Hi, this is the second weather-app with a fresh appearance and provides more detailed information. I made this with reactJS and used the API from https://openweathermap.org.",
     link: "https://weather-app-v2-0-0.vercel.app/",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 9,
@@ -136,7 +136,7 @@ export const project = [
     title: "Cinematic Vibes",
     text: "Hey there! This web app is built using React JS, Tailwind CSS, Redux, and Axios. It fetches data from https://www.themoviedb.org/ to show you the latest and greatest movies and TV shows, as well as some older ones.",
     link: "https://cinematicvibes.vercel.app/",
-    delay: "900",
+    delay: "600",
   },
   {
     id: 11,
@@ -144,6 +144,6 @@ export const project = [
     title: "Dealio (E-Commerce)",
     text: "Hello! This web application is built using React JS, Tailwind CSS, Redux, and Axios, and incorporates AOS and Animate.css for enhanced animations. The application fetches data from https://fakestoreapi.com/ to display a wide range of products, including men's clothing, women's clothing, jewelry, and electronics.",
     link: "https://dealio-orpin.vercel.app/",
-    delay: "600",
+    delay: "900",
   },
 ];

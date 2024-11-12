@@ -203,7 +203,7 @@ const Homepage = () => {
                     <h3 className="mb-3 mt-5 text-xl font-semibold text-slate-900">
                       {item.title}
                     </h3>
-                    <p className="mb-7 text-base font-medium text-slate-500">
+                    <p className="mb-7 line-clamp-3 text-ellipsis text-base font-medium text-slate-500">
                       {item.text}
                     </p>
                     <div className="button self-end">
