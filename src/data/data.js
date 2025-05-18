@@ -9,6 +9,7 @@ import porto8 from "../assets/image/portfolio/porto8.jpg";
 import porto9 from "../assets/image/portfolio/porto9.jpg";
 import porto10 from "../assets/image/portfolio/porto10.jpg";
 import porto11 from "../assets/image/portfolio/porto11.jpg";
+import porto12 from "../assets/image/portfolio/porto12.jpg";
 
 export const mySkill = [
   {
@@ -145,5 +146,13 @@ export const project = [
     text: "Hello! This web application is built using React JS, Tailwind CSS, Redux, and Axios, and incorporates AOS and Animate.css for enhanced animations. The application fetches data from https://fakestoreapi.com/ to display a wide range of products, including men's clothing, women's clothing, jewelry, and electronics.",
     link: "https://dealio-orpin.vercel.app/",
     delay: "900",
+  },
+  {
+    id: 12,
+    image: porto12,
+    title: "Blog",
+    text: "blog website built with Next.js, TypeScript, and styled with Tailwind CSS. Features include a responsive article layout, category-based navigation, commenting system, and user authentication.",
+    link: "https://blog-eight-zeta-11.vercel.app/",
+    delay: "300",
   },
 ];
