@@ -58,17 +58,19 @@ const Homepage = () => {
                 About Me
               </h4>
               <h2 className="mb-5 max-w-md text-3xl font-bold text-slate-900 lg:text-4xl">
-                Graphic Designer & Front-End Developer
+                Graphic Designer & Fullstack Developer
               </h2>
               <p className="text-base font-medium text-slate-500 lg:text-lg">
-                Hello! My name is Mochammad Fahmi Kurnia Sandi, I am a Graphic
-                Designer and Frontend Developer. As a Graphic Designer &
-                Front-End Developer, I have expertise in creating visually
-                appealing displays while ensuring website functionality and
-                responsiveness. I am also capable of operating design software
-                which I acquired from on-the-job training. I stay up-to-date
-                with the latest trends in web design and development to provide
-                innovative and customized solutions to clients.
+                Hello! My name is Mochammad Fahmi Kurnia Sandi. I am a Fullstack
+                Developer and Graphic Designer with a passion for building
+                powerful web applications and visually compelling designs. As a
+                Fullstack Developer, I develop both frontend and backend systems
+                to deliver responsive, secure, and scalable web solutions. At
+                the same time, my expertise in graphic design allows me to craft
+                engaging visuals and user interfaces that enhance user
+                experience. With a solid understanding of both technology and
+                aesthetics, I bridge functionality and creativity to provide
+                complete and customized digital solutions.
               </p>
             </div>
             <div className="box">

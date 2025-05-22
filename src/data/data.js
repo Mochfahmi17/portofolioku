@@ -22,38 +22,50 @@ export const mySkill = [
   },
   {
     id: 3,
-    skill: "HTML",
+    skill: "Figma",
   },
   {
     id: 4,
-    skill: "CSS",
+    skill: "HTML",
   },
   {
     id: 5,
-    skill: "JavaScript",
+    skill: "CSS",
   },
   {
     id: 6,
-    skill: "PHP",
+    skill: "JavaScript",
   },
   {
     id: 7,
-    skill: "Bootstrap 5",
+    skill: "PHP",
   },
   {
     id: 8,
-    skill: "Tailwind CSS",
+    skill: "Bootstrap 5",
   },
   {
     id: 9,
-    skill: "ReactJS",
+    skill: "Tailwind CSS",
   },
   {
     id: 10,
-    skill: "VueJS",
+    skill: "ReactJS",
   },
   {
     id: 11,
+    skill: "VueJS",
+  },
+  {
+    id: 12,
+    skill: "ExpressJS",
+  },
+  {
+    id: 13,
+    skill: "NextJS",
+  },
+  {
+    id: 14,
     skill: "Laravel",
   },
 ];
